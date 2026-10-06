@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laptop Care Center Butwal | Computer Repair</title>
+<meta name="description" content="Computer and laptop repair in Butwal, Lumbini Province. Call 985-7078013.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="logo go">Laptop Care<span>Butwal</span></a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
+  <nav id="menu">
+    <a href="#home" class="go">Home</a>
+    <a href="#services" class="go">Services</a>
+    <a href="#selling" class="go">Selling</a>
+    <a href="#contact" class="go">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="page hero">
+  <div class="hero-text">
+    <p class="tag">Computer repair service in Butwal</p>
+    <h1>Slow, broken or <span id="typed"></span><b class="caret"></b></h1>
+    <p class="lead">Bring your laptop or computer to Laptop Care Center in Butwal, or call us and tell us what is wrong.</p>
+    <div class="actions">
+      <a class="btn primary" href="tel:9857078013">Call 985-7078013</a>
+      <a class="btn ghost go" href="#services">Repair services</a>
+      <a class="btn ghost go" href="#selling">Buy accessories</a>
+    </div>
+  </div>
+  <div class="term" aria-hidden="true">
+    <div class="term-bar"><i></i><i></i><i></i><span>diagnostic</span></div>
+    <pre id="term"></pre>
+  </div>
+  <div class="strip" aria-label="Photos">
+    <div class="track" id="track">
+      <a class="shot go" href="#selling"><img src="img/laptops.jpg" alt="Laptops"><span>Laptops</span></a>
+      <a class="shot go" href="#services"><img src="img/repair.jpg" alt="Laptop repair"><span>Repair</span></a>
+      <a class="shot go" href="#selling"><img src="img/speakers.jpg" alt="Speakers"><span>Speakers</span></a>
+      <a class="shot go" href="#selling"><img src="img/keyboards.jpg" alt="Keyboards"><span>Keyboards</span></a>
+      <a class="shot go" href="#selling"><img src="img/headphones.jpg" alt="Headphones"><span>Headphones</span></a>
+      <a class="shot go" href="#selling"><img src="img/mouse.jpg" alt="Mouse"><span>Mouse</span></a>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="page sec">
+  <h2>Repair services</h2>
+  <p class="sub">We repair laptops and desktop computers. Call to ask about your problem.</p>
+  <img class="banner" src="img/repair.jpg" alt="Technician opening a laptop to repair it">
+  <div class="grid">
+    <article class="card"><div class="ico">🖥</div><h3>Laptop screen</h3><p>Cracked, flickering or dim screen replacement.</p></article>
+    <article class="card"><div class="ico">⌨</div><h3>Keyboard and touchpad</h3><p>Keys not working or touchpad problems.</p></article>
+    <article class="card"><div class="ico">🔋</div><h3>Battery and charger</h3><p>Laptop not charging or battery draining fast.</p></article>
+    <article class="card"><div class="ico">🌀</div><h3>Overheating</h3><p>Fan cleaning and cooling fixes for hot, loud laptops.</p></article>
+    <article class="card"><div class="ico">⚙</div><h3>Windows and software</h3><p>Install Windows, drivers and everyday programs.</p></article>
+    <article class="card"><div class="ico">🛡</div><h3>Virus removal</h3><p>Clean slow, popup-filled or infected computers.</p></article>
+    <article class="card"><div class="ico">💾</div><h3>SSD, HDD and RAM</h3><p>Upgrade storage and memory to speed up your computer.</p></article>
+    <article class="card"><div class="ico">⏻</div><h3>Will not turn on</h3><p>Check power, board and parts when a computer is dead.</p></article>
+  </div>
+</section>
+
+<section id="selling" class="page sec">
+  <h2>Selling</h2>
+  <p class="sub">Laptops and accessories. Call 985-7078013 to ask what is available and the price.</p>
+  <div class="chips" id="chips">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip" data-f="laptop">Laptops</button>
+    <button class="chip" data-f="keyboard">Keyboards</button>
+    <button class="chip" data-f="mouse">Mouse</button>
+    <button class="chip" data-f="headphone">Headphones</button>
+    <button class="chip" data-f="speaker">Speakers</button>
+  </div>
+  <div class="grid shop" id="shop">
+    <article class="pcard" data-c="laptop"><img src="img/laptops.jpg" alt="Laptops"><div><h3>Laptops</h3><p>Different brands and sizes.</p><a class="btn primary sm" href="tel:9857078013">Ask price</a></div></article>
+    <article class="pcard" data-c="keyboard"><img src="img/keyboards.jpg" alt="Backlit keyboards"><div><h3>Keyboards</h3><p>Backlit and standard keyboards.</p><a class="btn primary sm" href="tel:9857078013">Ask price</a></div></article>
+    <article class="pcard" data-c="mouse"><img src="img/mouse.jpg" alt="Gaming mouse"><div><h3>Mouse</h3><p>Office and gaming mouse.</p><a class="btn primary sm" href="tel:9857078013">Ask price</a></div></article>
+    <article class="pcard" data-c="headphone"><img src="img/headphones.jpg" alt="Headphones"><div><h3>Headphones</h3><p>Headphones with mic for calls and games.</p><a class="btn primary sm" href="tel:9857078013">Ask price</a></div></article>
+    <article class="pcard" data-c="speaker"><img src="img/speakers.jpg" alt="Speakers"><div><h3>Speakers</h3><p>Desktop and gaming speakers.</p><a class="btn primary sm" href="tel:9857078013">Ask price</a></div></article>
+  </div>
+</section>
+
+<section id="contact" class="page sec">
+  <h2>Contact</h2>
+  <div class="contact">
+    <div class="info">
+      <h3>Laptop Care Center Butwal</h3>
+      <p>Butwal, Lumbini Province 32907</p>
+      <p>Plus Code: PF28+3G Butwal</p>
+      <a class="btn primary" href="tel:9857078013">Call 985-7078013</a>
+      <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=PF28%2B3G+Butwal">Open in Maps</a>
+    </div>
+    <form id="form">
+      <label>Your name<input name="name" required></label>
+      <label>What is wrong?<textarea name="msg" rows="4" required></textarea></label>
+      <button class="btn primary" type="submit">Send as text message</button>
+    </form>
+  </div>
+  <iframe class="map" title="Map of Laptop Care Center Butwal" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=PF28%2B3G+Butwal&amp;output=embed"></iframe>
+</section>
+</main>
+
+<footer>© <span id="yr"></span> Laptop Care Center Butwal</footer>
+<script src="script.js"></script>
+</body>
+</html>
